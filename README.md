@@ -1,2 +1,7 @@
-sbt.g8
+Simple SBT project template
 ======
+
+Usage:
+-----
+
+g8 histrio/sbt
