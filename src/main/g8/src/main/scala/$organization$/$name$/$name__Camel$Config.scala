@@ -4,5 +4,5 @@ import com.typesafe.config.ConfigFactory
 
 object GiflectionConfig {
   private val config = ConfigFactory.load()
-  lazy val debug = config.getString("$name;format="norm,word"$.debug")
+  lazy val debug = config.getBoolean("$name;format="norm,word"$.debug")
 }
