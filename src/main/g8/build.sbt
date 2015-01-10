@@ -4,11 +4,11 @@ organization := "$organization$"
 
 version := "$version$"
 
-scalaVersion := "2.11.2"
+scalaVersion := "2.11.4"
 
 homepage := Some(url("https://github.com/$github_username$/$name;format="norm"$"))
 
-startYear := Some(2014)
+startYear := Some(2015)
 
 libraryDependencies ++= Seq(
  "org.scalatest" %% "scalatest" % "2.2.2" % "test"
