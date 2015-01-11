@@ -6,6 +6,8 @@ version := "$version$"
 
 scalaVersion := "2.11.4"
 
+homepage := Some(url("https://github.com/
+homepage := Some(url("https://github.com/$$
 homepage := Some(url("https://github.com/$github_username$/$name;format="norm"$"))
 
 startYear := Some(2015)
@@ -16,4 +18,3 @@ libraryDependencies ++= Seq(
  ,"com.typesafe.scala-logging" %% "scala-logging" % "3.1.0"
  ,"com.typesafe" % "config" % "1.2.1"
 )
-
