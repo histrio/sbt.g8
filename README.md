@@ -1,4 +1,5 @@
 Simple SBT project template
+
 ======
 
 Usage:

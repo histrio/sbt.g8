@@ -1,20 +1,19 @@
-name := "$name$"
+import Dependencies._
 
-organization := "$organization$"
+lazy val root = (project in file(".")).
+  settings(
+    organization := "$organization$",
+    scalaVersion := "2.12.0",
+    version := "$version$",
+    homepage := Some(url("https://github.com/$github_username$/$name;format="norm"$")),
+    startYear := Some(2016),
+    name := "$name$",
+    libraryDependencies ++= Seq(
+        scalaTest % Test,
+        logback,
+        scalaLogging,
+        typesafeConfig
+    )
+  )
 
-version := "$version$"
 
-scalaVersion := "2.11.4"
-
-homepage := Some(url("https://github.com/
-homepage := Some(url("https://github.com/$$
-homepage := Some(url("https://github.com/$github_username$/$name;format="norm"$"))
-
-startYear := Some(2015)
-
-libraryDependencies ++= Seq(
- "org.scalatest" %% "scalatest" % "2.2.2" % "test"
- ,"ch.qos.logback" % "logback-classic" % "1.1.2"
- ,"com.typesafe.scala-logging" %% "scala-logging" % "3.1.0"
- ,"com.typesafe" % "config" % "1.2.1"
-)
