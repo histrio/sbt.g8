@@ -1,8 +1,6 @@
-Simple SBT project template
+# Simple SBT project template
 
-======
+## Usage:
 
-Usage:
------
-
-g8 histrio/sbt
+pip install -U cookiecutter
+cookiecutter https://github.com/histrio/sbt.g8.git

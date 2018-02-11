@@ -1,0 +1,12 @@
+{
+  "sbt_version": "0.13.17",
+  "scala_version": "2.12.4",
+  "name": "Project",
+  "description": "Basic scala project",
+  "organization": "org.falseprotagonist",
+  "version": "1.0.1-SNAPSHOT",
+  "github_username": "histrio",
+  "developer_full_name": "Rinat Sabitov",
+  "developer_email": "rinat.sabitov@gmail.com"
+}
+
