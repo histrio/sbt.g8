@@ -1,4 +1,4 @@
-package {{ cookiecutter.organization }}.{{ cookiecutter.name }}
+package {{ cookiecutter.organization }}.{{ cookiecutter.name|lower }}
 
 import com.typesafe.scalalogging._
 import org.slf4j.LoggerFactory
